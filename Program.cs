@@ -4,19 +4,6 @@
 //     () => { Console.WriteLine("World"); });
 ParallelInvoke(
     () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
-    () => { Console.WriteLine("Hello"); },
     () => { Console.WriteLine("World"); });
 
 Console.WriteLine("done!");
